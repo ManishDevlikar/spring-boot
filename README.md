@@ -15,11 +15,16 @@ So the core of spring framework is dependency injection and spring modules and s
 
 # spring mvc
 Spring MVC is a spring module.The focus of spring MVC is on simplifying building of web applications and rest API.It only focuses on web apps and rest API.
-With Spring MVC, you can make use of annotations like @Controller at @Restcontroller @Requestmapping.These are all the things that I defined as part of Spring MVC. We saw that there is a lot of configuration that is needed in your pom.XML in your web.XML in your applicationcontext.XML whenever you'd want to build even a simple application with spring and spring MVC.
+
+With Spring MVC, you can make use of annotations like @Controller at @Restcontroller @Requestmapping.These are all the things that I defined as part of Spring MVC.
+
+We saw that there is a lot of configuration that is needed in your pom.XML in your web.XML in your applicationcontext.XML whenever you'd want to build even a simple application with spring and spring MVC.
 
 
 # SpringBoot
 Spring Boot is a spring project The goal is to help you build production ready applications quickly. The key features of spring boot are startup projects and auto configuration. 
+
 if you want to develop a web application, the web starter would bring in all the dependencies that are needed, and auto configuration would eliminate the need to set up spring, spring, MVC and other frameworks.
+
 It automatically provides a default configuration based on whatever is in your class path.In addition, Springboot also enables a number of non-functional requirements.If you want to monitor your application, you have actuator and embedded servers simplifies the deploymentof your applications.
 And Springboard also provides default logging and error handling. Springboot simplifies application configuration through profiles and configuration properties.
